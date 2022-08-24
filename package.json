@@ -1,0 +1,22 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "natour landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Abdullahi/natour.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S-Abdullahi/natour/issues"
+  },
+  "homepage": "https://github.com/S-Abdullahi/natour#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
