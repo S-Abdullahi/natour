@@ -2,10 +2,24 @@ $color-deep : #31572c;
 $color-medium : #4f772d;
 $color-light : #90a955;
 
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light:#2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-gray-light-1: #f7f7f7;
+$color-gray-light-2: #eee;
+
+
 $color-white : #fff;
+$color-black: rgb(0,0,0);
 $color-gray-dark : #777;
+
+//FONT
+$default-font-size:1.6rem;
 
 //GRID
 $grid-width : 114rem;
-$gutter-horizontal : 8rem;
+$gutter-horizontal : 6.5rem;
 $gutter-vertical : 4rem;

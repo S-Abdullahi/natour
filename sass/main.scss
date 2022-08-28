@@ -4,11 +4,18 @@
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
+@import "base/utilities";
 
 @import "component/button";
+@import "component/composition";
+@import "component/featurebox";
+@import "component/card";
 
 @import "layout/header";
 @import "layout/grid";
+
+
+@import "pages/home"
 
 
 

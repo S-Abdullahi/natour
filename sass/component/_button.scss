@@ -35,6 +35,15 @@
         }
     }
 
+    &--green{
+        background-color:$color-light;
+        color: $color-white;
+
+        &::after{
+            background-color: $color-white;
+        }
+    }
+
     &::after{
         content: '';
         display: inline-block;
@@ -54,7 +63,31 @@
     }
 }
 
+.btn-text{
 
+    &:link, &:visited{
+        font-size: $default-font-size;
+        color: $color-light;
+        display: inline-block;
+        text-decoration: none;
+        padding: 3px;
+        border-bottom: 1px solid $color-light;
+    }
+
+    &:hover{
+        background-color: $color-light;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba(0,0,0, 0.15);
+        transform: translateY(-2px);
+    }
+
+    &:active{
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15);
+        transform: translateY(0);
+    }
+
+    
+}
 
 
 
