@@ -842,11 +842,18 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        width: 100%;
+        display: block; } }
   .popup__right {
     width: 66.666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 56.25em) {
+      .popup__right {
+        width: 100%; } }
   .popup__img {
     width: 100%;
     display: block; }
@@ -863,6 +870,9 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 56.25em) {
+      .popup__text {
+        column-count: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }

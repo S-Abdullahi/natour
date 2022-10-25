@@ -24,11 +24,17 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(0.25);
         transition: all 0.5s .2s;
+
     }
 
     &__left{
         width: 33.333333%;
         display: table-cell;
+
+        @include respond(tab-port){
+            width: 100%;
+            display: block;
+        }
     }
 
     &__right{
@@ -36,6 +42,10 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-port){
+            width: 100%;
+        }
     }
 
     &__img{
@@ -59,6 +69,10 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-port){
+            column-count: 1;
+        }
     }
 
     &:target{
