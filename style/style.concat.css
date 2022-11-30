@@ -1425,3 +1425,6 @@ body {
     @media only screen and (max-width: 56.25em) {
       .book__form {
         width: 100%; } }
+
+.hidden {
+  display: none; }
